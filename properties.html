@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Properties | Vegas Dream Homes</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <!-- Navigation bar similar to index.html -->
+        <!-- ...existing code... -->
+    </header>
+
+    <main>
+        <!-- Page Header -->
+        <section class="page-header">
+            <div class="container">
+                <h1 data-lang="properties">Properties</h1>
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="index.html" data-lang="home">Home</a></li>
+                        <li class="breadcrumb-item active" data-lang="properties">Properties</li>
+                    </ol>
+                </nav>
+            </div>
+        </section>
+
+        <!-- Property Filter -->
+        <section class="property-search">
+            <div class="container">
+                <div class="filter-bar">
+                    <form id="property-filter-form">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="mb-3">
+                                    <label for="property-type" data-lang="property-type">Property Type</label>
+                                    <select class="form-select" id="property-type">
+                                        <option value="all">All Types</option>
+                                        <option value="house">House</option>
+                                        <option value="condo">Condo</option>
+                                        <option value="townhouse">Townhouse</option>
+                                        <option value="land">Land</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="mb-3">
+                                    <label for="price-range" data-lang="price-range">Price Range</label>
+                                    <select class="form-select" id="price-range">
+                                        <option value="all">Any Price</option>
+                                        <option value="100-300">$100k - $300k</option>
+                                        <option value="300-500">$300k - $500k</option>
+                                        <option value="500-1000">$500k - $1M</option>
+                                        <option value="1000+">$1M+</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="mb-3">
+                                    <label for="bedrooms" data-lang="bedrooms">Bedrooms</label>
+                                    <select class="form-select" id="bedrooms">
+                                        <option value="any">Any</option>
+                                        <option value="1">1+</option>
+                                        <option value="2">2+</option>
+                                        <option value="3">3+</option>
+                                        <option value="4">4+</option>
+                                        <option value="5">5+</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="mb-3">
+                                    <label for="bathrooms" data-lang="bathrooms">Bathrooms</label>
+                                    <select class="form-select" id="bathrooms">
+                                        <option value="any">Any</option>
+                                        <option value="1">1+</option>
+                                        <option value="2">2+</option>
+                                        <option value="3">3+</option>
+                                        <option value="4">4+</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-primary" data-lang="filter">Filter Properties</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Property Listings -->
+        <section class="property-listings">
+            <div class="container">
+                <div class="row">
+                    <!-- Property cards (8-12 properties) similar to the ones on the homepage -->
+                    <!-- ...existing code... -->
+                </div>
+                
+                <!-- Pagination -->
+                <nav aria-label="Page navigation">
+                    <ul class="pagination justify-content-center">
+                        <li class="page-item disabled"><a class="page-link" href="#">&laquo;</a></li>
+                        <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item"><a class="page-link" href="#">&raquo;</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <!-- Footer content similar to index.html -->
+        <!-- ...existing code... -->
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/language.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

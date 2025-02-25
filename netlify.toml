@@ -1,0 +1,9 @@
+# Default build settings
+[build]
+  publish = "/"
+
+# Redirects and headers
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
